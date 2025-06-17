@@ -12,5 +12,5 @@
   <img src="DangNhap.jpg"  width="450" />
   <img src="DangKy.jpg"  width="450" />
   <img src="System.jpg"  width="450" />
-  <img src="Home.jpg"  width="450" />
+  <img src="home.jpg"  width="450" />
 </p>
