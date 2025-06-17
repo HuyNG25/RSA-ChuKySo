@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Trang chủ</title>
+</head>
+<body class="bg-gradient-to-br from-blue-400 to-indigo-600 h-screen flex flex-col justify-center items-center">
+    <h1 class="text-white text-4xl font-bold mb-8">Welcome to RSA File Transfer</h1>
+    <div class="space-x-4">
+        <a href="/login" class="bg-white text-indigo-600 px-6 py-2 rounded-lg font-bold shadow-md hover:bg-gray-100">Đăng nhập</a>
+        <a href="/register" class="bg-white text-blue-600 px-6 py-2 rounded-lg font-bold shadow-md hover:bg-gray-100">Đăng ký</a>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Đăng ký</title>
+</head>
+<body class="bg-gray-100 flex justify-center items-center h-screen">
+    <form method="post" class="bg-white p-8 rounded-lg shadow-md space-y-4 w-full max-w-md">
+        <h2 class="text-2xl font-bold">Đăng ký</h2>
+        <input name="name" placeholder="Họ và tên" required class="w-full px-4 py-2 border rounded" />
+        <input name="email" type="email" placeholder="Email" required class="w-full px-4 py-2 border rounded" />
+        <input name="username" placeholder="Tên đăng nhập" required class="w-full px-4 py-2 border rounded" />
+        <input name="password" type="password" placeholder="Mật khẩu" required class="w-full px-4 py-2 border rounded" />
+        <input name="confirm" type="password" placeholder="Nhập lại mật khẩu" required class="w-full px-4 py-2 border rounded" />
+        <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Đăng ký</button>
+    </form>
+</body>
+</html>
